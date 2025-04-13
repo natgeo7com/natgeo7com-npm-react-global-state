@@ -52,4 +52,8 @@ function useGlobalState(globalState) {
     return [state, setState2]
 }
 
-export { GlobalState, useGlobalState }
+function createGlobalState(initialValue) {
+    return new GlobalState(initialValue)
+}
+
+export { createGlobalState, useGlobalState }

@@ -1,9 +1,9 @@
 ```js
 "use client"
 
-import { GlobalState, useGlobalState } from "natgeo7com-npm-react-global-state"
+import { createGlobalState, useGlobalState } from "natgeo7com-npm-react-global-state"
 
-const g = new GlobalState(1)
+const g = createGlobalState(1)
 
 function A() {
   const [c, setC] = useGlobalState(g)
