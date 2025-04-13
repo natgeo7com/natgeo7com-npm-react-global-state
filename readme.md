@@ -1,4 +1,6 @@
 ```js
+"use client"
+
 import { GlobalState, useGlobalState } from "natgeo7com-npm-react-global-state"
 
 const g = new GlobalState(1)
@@ -20,7 +22,7 @@ function B() {
   return (
     <>
       <div>{c}</div>
-      <button>go</button>
+      <button onClick={h}>go</button>
     </>
   )
 }
