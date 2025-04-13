@@ -1,14 +1,14 @@
 {
-  "name": "npm-natgeo7com-react-global-state",
-  "version": "1.0.1",
+  "name": "natgeo7com-npm-react-global-state",
+  "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/natgeo7com/npm-natgeo7com-react-global-state#readme",
+  "homepage": "https://github.com/natgeo7com/natgeo7com-npm-react-global-state#readme",
   "bugs": {
-    "url": "https://github.com/natgeo7com/npm-natgeo7com-react-global-state/issues"
+    "url": "https://github.com/natgeo7com/natgeo7com-npm-react-global-state/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natgeo7com/npm-natgeo7com-react-global-state.git"
+    "url": "git+https://github.com/natgeo7com/natgeo7com-npm-react-global-state.git"
   },
   "license": "ISC",
   "author": "",

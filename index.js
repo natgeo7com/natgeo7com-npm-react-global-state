@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 // this is an observable object
 // that wraps a global variable
-// and keep a list of set-state functions
+// and keeps a list of set-state functions
 // which are used to update all components
 // that are hooked to the global
 class GlobalState {
@@ -44,8 +44,7 @@ function useGlobalState(globalState) {
     }
 
     useEffect(_ => {
-        // sub set-state for the current component
-        // that uses the hook
+        // sub set-state for the current component that uses the hook
         globalState.sub(setState)
         return _ => globalState.unsub(setState)
     }, [])
